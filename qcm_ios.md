@@ -141,7 +141,19 @@
 
 <br/>
 
-#### 13) Un indexPath est composé d'une section et de ?
+#### 13) Une propriété de classe peut être ...
+
+* readonly
+* readwrite
+* writeonly
+* executeonly
+* readwriteexecute
+
+#### 14) Différence entre une propriété atomic et nonatomic Vrai ou faux ?
+
+* atomic est "Thread safe" comparé à nonatomic
+* 
+
 
 ###III) 1 an d'exp (junior), cas courants monde pro
 
