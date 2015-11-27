@@ -23,33 +23,47 @@
 
 ### II) niveau école, notions de base du langage
 
-#### 9) Quel est le type de base de données que iOS supporte ?
+#### 9) Comment peut on allouer une chaine de caracteres non vide en Objective-C ?
+
+* ```NSString *str = [NSString new]; str = "Hello World";```
+* ```NSString *str = [NSString new]; str = @"Hello World";```
+* ```NSString *str = [[NSString alloc] init]; str = @"Hello World";```
+* ```NSString *str = [[NSString alloc] initWithFormat:@"Hello World"];```
+* ```NSString *str = @"Hello World";```
+
+#### 10) Quel est le type de base de données que iOS supporte ?
 
 * MySQL
 * Oracle
 * SQLite
 * PostgreSQL
 
-#### 10) Quel est le raccourci clavier pour lancer l’application ?
+#### 11) Quel est le raccourci clavier pour lancer l’application ?
 
 * Command + S
 * Command + R
 * Option + S
 * Option + R
 
-#### 11) Quel fichier contient les données de configuration de l'application ?
+#### 12) Quel fichier contient les données de configuration de l'application ?
 
 * info.xml
 * info.plist
 * info.xib
 * plist.xml
 
-#### 12) Un indexPath est composé d'une section et de ?
+#### 13) Un indexPath est composé d'une section et de ?
 
 * Une row
 * Un path
 * Un index
 * Un integer
+
+#### 14) 
+
+#### 15)
+
+#### 16)  
 
 
 <br/>
@@ -146,7 +160,24 @@
 * Insérer du texte dans un endroit précis d’un fichier
 * Tester un morceau de code unitairement
 * Tester qu'une expression renvoie bien "false" ou affiche un message d'erreur
-* Cette fonction n’existe pas
+* La même chose que XCTAssertTrue
+
+
+#### 28) Quel est l'ordre d'héritage d'un UIButton ?
+
+* NSObject -> UIResponder -> UIView -> UIControl -> UIButton
+* NSObject -> UIView -> UIResponder -> UIControl -> UIButton
+* NSObject -> NSResponder -> UIControl -> UIView -> UIButton
+* NSObject -> NSResponder -> UIView -> UIControl -> UIButton
+
+#### 29)
+
+#### 30)
+
+#### 31)
+
+#### 32)
+
 
 
 <br/>
@@ -175,6 +206,16 @@
 * Une base de donnée
 * Un outil de test “temps réel”
 * Un outils de gestion de tests fonctionnels
+
+#### 36) Qu'est ce que le MVVM ?
+
+#### 37) Qu'est ce que le "Protocol-Oriented Programming"?
+
+#### 38)
+
+#### 39)
+
+#### 40)   
 
 
 
