@@ -191,16 +191,13 @@
 * Il y a un warning à la compilation
 * Rien
 
-#### 21) Quels sont les design patterns utilisés sur iOS?
 
-* La KVO
-* Le MVC
-* Le MVVM
-* Le KVA
-* Le KVC
-* La délégation
-* Les notifications
-* Les singletons
+#### 21) Quel sont les outils disponibles sur iOS pour la gestion de dépendances
+
+* UIDependencyManager
+* Cocoapods
+* Carthage
+* Reveal
 
 
 #### 22) Quel(s) callback est appellé pour chaque cellule dans une tableView ?
@@ -230,14 +227,25 @@
 
 ###IV) 3 ans d'exp (confirmé), cas avancés, sources de bugs etc...
 
-#### 25) Avec quelle(s) classe(s) peut on temporairement désactiver les actions d’un layer en CoreAnimation ?
+#### 25) Quels sont les design patterns utilisés sur iOS?
+
+* La KVO
+* Le MVC
+* Le MVVM
+* Le KVA
+* Le KVC
+* La délégation
+* Les notifications
+* Les singletons
+
+#### 26) Avec quelle(s) classe(s) peut on temporairement désactiver les actions d’un layer en CoreAnimation ?
 
 * UITransaction
 * NSTransaction
 * CATransaction
 * IOTransaction
 
-#### 26) Quel est le type de retour de ce prototype ?
+#### 27) Quel est le type de retour de ce prototype ?
 	
 ```-weardMethod:(NSString*)str;	```
 
@@ -247,7 +255,7 @@
 * Ce prototype n’est pas valide
 
 
-#### 27) A quoi sert la fonction XCTAssert ?
+#### 28) A quoi sert la fonction XCTAssert ?
 	
 * Insérer du texte dans un endroit précis d’un fichier
 * Tester un morceau de code unitairement
@@ -255,20 +263,29 @@
 * La même chose que XCTAssertTrue
 
 
-#### 28) Quel est l'ordre d'héritage d'un UIButton ?
+#### 29) Quel est l'ordre d'héritage d'un UIButton ?
 
 * NSObject -> UIResponder -> UIView -> UIControl -> UIButton
 * NSObject -> UIView -> UIResponder -> UIControl -> UIButton
 * NSObject -> NSResponder -> UIControl -> UIView -> UIButton
 * NSObject -> NSResponder -> UIView -> UIControl -> UIButton
 
-#### 29)
+#### 30) Les opérateurs suivants sont des opérateurs de collection. Vrai ou faux?
 
-#### 30)
+* @count
+* @unionOfObject
+* @explodeObject
+* @min
 
-#### 31)
+#### 31) Quels types de fichiers sont nécessaires à la soumission d'une application
 
-#### 32)
+* Un certificat de développement
+* Un certificat de distribution
+* Une clef privé/clef publique (PEM)
+* App File Id (AFI)
+* Un provisionning Profile
+
+#### 32) 
 
 
 
@@ -303,11 +320,11 @@
 
 #### 37) Qu'est ce que le "Protocol-Oriented Programming"?
 
-#### 38)
+#### 38) Qu'est ce que Metal
 
-#### 39)
+#### 39) Qu'est ce qu'est AsyncDisplayKit
 
-#### 40)   
+#### 40) A quoi sert la librairie Tweak
 
 
 
