@@ -160,7 +160,13 @@
 * Rendre la propriété Thread safe
 * Rendre la propriété readwrite
 
-#### 16) 
+#### 16) Quelles sont les classes utiles pour faire une requêtes ?
+
+* NSUrlRequest
+* NSUrlOperation
+* NSSession
+* NSUrlSession
+* NSRequest 
 
 <br/>
 
