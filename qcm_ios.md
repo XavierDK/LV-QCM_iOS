@@ -6,7 +6,7 @@
 
 ### I) question de contrôle, base de la prog
 
-#### 1) Quelles sont les valeurs finales de “var1” et ”var2” ?
+#### 1) Quelles sont les valeurs finales de “var1” et ”var2” (Objective-C)?
 
 	NSInteger var1 = 2;
 	NSInteger var2 = 3;
@@ -16,10 +16,97 @@
 * var1 = 7, var2 = 6
 * var1 = 8, var2 = 6
 * var1 = 7, var2 = 5
+* var1 = 8, var2 = 5
 * Ce code ne compile pas
 
 <br/>
 
+#### 2) La gestion de mémoire est-elle correcte (Objective-C)?
+
+	- (void)func {
+		char *ptr = malloc(sizeof(char*));
+	}
+
+* Oui, le pointeur ptr est libéré à la fin de la fonction.
+* Non, il faut libéré la mémoire manuellement.
+
+
+#### 3) Quel format permet d'afficher un float avec 2 chiffres après la virgule (Objective-C)?
+
+* NSLog(@"%@", VALUE);
+* NSLog(@"%d", VALUE);
+* NSLog(@"%.2d", VALUE);
+* NSLog(@"%f", VALUE);
+* NSLog(@"%.2f", VALUE);
+
+#### 4) NSInteger est un typedef sur quel type (Objective-C)?
+
+* short
+* int
+* unsigned int
+* long int
+* unsigned long int
+
+#### 5) Quel est la valeur de la variable "res" (Objective-C)?
+
+	- (void)main {
+		NSInteger val = 3;
+		const NSInteger res = 3;
+		
+		res += val;
+		NSLog("res = %d", res)
+	}
+	
+* 3
+* 6
+* 0
+* Ce code ne compile pas
+
+#### 6) Cet enum est-il correcte?
+
+	typedef enum {
+		TestEnumA = 3,
+		TestEnumB,
+		TestEnumC,
+		TestEnumD
+	} testEnum;
+
+* Non, la syntax de cet enum est incorrect 
+* Non, on ne peux pas assigner de valeur à un enum il commence forcément par 0
+* Oui, cet enum est correcte 
+
+#### 7) Quel est la valeur de la variable "varC" (Objective-C)?
+
+	NSInteger	varA = 3;
+	NSInteger	varB = 5;
+	
+	NSInteger	varC = (varB > varA) ? varA : varB;
+	
+* 0
+* 2
+* 5
+* 3
+* Ce code ne compile pas
+
+#### 8) Quel est la valeur de la variable "res" lors du second appel (Objective-C)?
+
+	- (void)addVal:(NSInteger)val {
+		static NSInteger res = 3;
+		
+		res += val;
+		NSLog("res = %d", res)
+	}
+	
+	- (void)viewDidLoad {
+		[self addVal:3];
+		[self addVal:5];
+	}
+	
+* 3
+* 6
+* 11
+* 12
+* Ce code ne compile pas
 
 ### II) niveau école, notions de base du langage
 
@@ -68,6 +155,7 @@
 
 <br/>
 
+#### 13) Un indexPath est composé d'une section et de ?
 
 ###III) 1 an d'exp (junior), cas courants monde pro
 
