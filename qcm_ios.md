@@ -116,33 +116,48 @@
 * Option + S
 * Option + R
 
+#### 11) Quel fichier contient les données de configuration de l'application ?
+
+* info.xml
+* info.plist
+* info.xib
+* plist.xml
+
+#### 12) Un indexPath est composé d'une section et de ?
+
+* Une row
+* Un path
+* Un index
+* Un integer
+
+
 <br/>
 
 
 ###III) 1 an d'exp (junior), cas courants monde pro
 
-#### 17) Quels sont les classes utiles pour faire fonctionner CoreData
+#### 17) Quels sont les classes utiles pour faire fonctionner CoreData ?
 
 * NSManagedObjectContext
 * NSManagedObject
 * NSCoreData
 * NSCoreContext
 
-#### 18) Qu’est ce que l’ARC?
+#### 18) Qu’est ce que l’ARC ?
 
 * Le garbage collector de l’objectiveC
 * Une fonctionnalité du compilateur
 * Automatic Reference Counting
 * Atomic Retain Core
 
-#### 19) Qu’est ce qu’un protocole?
+#### 19) Qu’est ce qu’un protocole ?
 
 * Une interface en java
 * Un design pattern
 * La même chose qu’une norme de codage
 * Une liste de méthodes et de propriétés
 
-#### 20) En Objective-C, que se passe t’il quand on envoie un message a un objet nil?
+#### 20) En Objective-C, que se passe t’il quand on envoie un message a un objet nil ?
 
 * Un message d’erreur apparait dans la console
 * L’application crash
@@ -160,12 +175,35 @@
 * Les notifications
 * Les singletons
 
+
+#### 22) Quel(s) callback est appellé pour chaque cellule dans une tableView ?
+
+* ```numberOfSectionsInTableView:```
+* ```tableView:heightForRowAtIndexPath:```
+* ```tableView:numberOfRowsInSection:```
+* ```tableView:cellForRowAtIndexPath:```
+
+
+#### 23) Comment ajouter un élément dans un NSArray ?
+
+* ```[array appendObject:object];```
+* ```[array addObject:object];```
+* ```[array insertObject:object];```
+* ```array = [array arrayByAddingObject:object]```
+
+#### 24) Quel object permet le mieux de stocker un timestamp
+
+* NSInteger
+* CGFLoat
+* NSTimestamp
+* NSDate
+
 <br/>
 
 
 ###IV) 3 ans d'exp (confirmé), cas avancés, sources de bugs etc...
 
-#### 25) Avec quelle(s) classe(s) peut on temporairement désactiver les actions d’un layer en CoreAnimation?
+#### 25) Avec quelle(s) classe(s) peut on temporairement désactiver les actions d’un layer en CoreAnimation ?
 
 * UITransaction
 * NSTransaction
@@ -174,7 +212,7 @@
 
 #### 26) Quel est le type de retour de ce prototype ?
 	
-	-weardMethod:(NSString*)str;	
+```-weardMethod:(NSString*)str;	```
 
 * void
 * id
@@ -182,7 +220,7 @@
 * Ce prototype n’est pas valide
 
 
-#### 27) A quoi sert la fonction XCTAssert
+#### 27) A quoi sert la fonction XCTAssert ?
 	
 * Insérer du texte dans un endroit précis d’un fichier
 * Tester un morceau de code unitairement
@@ -196,21 +234,21 @@
 ###V) expert, questions de veille, de parti pris
 
 
-#### 33) Qu’est ce que ReactiveCocoa?
+#### 33) Qu’est ce que ReactiveCocoa ?
 
 * Un outil disponible dans Instruments
 * Un framework OpenSource
 * Un framework inspiré de la programmation fonctionnelle
 * Un framework permettant l’injection de dépendance
 
-#### 34) Qu’est ce que Typhoon?
+#### 34) Qu’est ce que Typhoon ?
 
 * Un outil disponible dans Instruments
 * Un framework OpenSource
 * Un framework inspiré de la programmation fonctionnelle
 * Un framework permettant l’injection de dépendance
 
-#### 35) Qu’est ce que Realm?
+#### 35) Qu’est ce que Realm ?
 	
 * Un outil d’analyse des données de l’application
 * Une base de donnée
