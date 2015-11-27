@@ -18,6 +18,8 @@
 * var1 = 7, var2 = 5
 * Ce code ne compile pas
 
+<br/>
+
 
 ### II) niveau école, notions de base du langage
 
@@ -35,39 +37,101 @@
 * Option + S
 * Option + R
 
+<br/>
 
 
 ###III) 1 an d'exp (junior), cas courants monde pro
 
+#### 17) Quels sont les classes utiles pour faire fonctionner CoreData
+
+* NSManagedObjectContext
+* NSManagedObject
+* NSCoreData
+* NSCoreContext
+
+#### 18) Qu’est ce que l’ARC?
+
+* Le garbage collector de l’objectiveC
+* Une fonctionnalité du compilateur
+* Automatic Reference Counting
+* Atomic Retain Core
+
+#### 19) Qu’est ce qu’un protocole?
+
+* Une interface en java
+* Un design pattern
+* La même chose qu’une norme de codage
+* Une liste de méthodes et de propriétés
+
+#### 20) En Objective-C, que se passe t’il quand on envoie un message a un objet nil?
+
+* Un message d’erreur apparait dans la console
+* L’application crash
+* Il y a un warning à la compilation
+* Rien
+
+#### 21) Quels sont les design patterns utilisés sur iOS?
+
+* La KVO
+* Le MVC
+* Le MVVM
+* Le KVA
+* Le KVC
+* La délégation
+* Les notifications
+* Les singletons
+
+<br/>
+
 
 ###IV) 3 ans d'exp (confirmé), cas avancés, sources de bugs etc...
 
-#### 24) Avec quelle(s) classe(s) peut on temporairement désactiver les actions d’un layer en CoreAnimation?
+#### 25) Avec quelle(s) classe(s) peut on temporairement désactiver les actions d’un layer en CoreAnimation?
 
 * UITransaction
 * NSTransaction
 * CATransaction
 * IOTransaction
 
+#### 26) Quel est le type de retour de ce prototype ?
+	
+	-weardMethod:(NSString*)str;	
+
+* void
+* id
+* NSString*
+* Ce prototype n’est pas valide
+
+
+#### 27) A quoi sert la fonction XCTAssert
+	
+* Insérer du texte dans un endroit précis d’un fichier
+* Tester un morceau de code unitairement
+* Tester qu'une expression renvoie bien "false" ou affiche un message d'erreur
+* Cette fonction n’existe pas
+
+
+<br/>
+
 
 ###V) expert, questions de veille, de parti pris
 
 
-#### 32) Qu’est ce que ReactiveCocoa?
+#### 33) Qu’est ce que ReactiveCocoa?
 
 * Un outil disponible dans Instruments
 * Un framework OpenSource
 * Un framework inspiré de la programmation fonctionnelle
 * Un framework permettant l’injection de dépendance
 
-#### 33) Qu’est ce que Typhoon?
+#### 34) Qu’est ce que Typhoon?
 
 * Un outil disponible dans Instruments
 * Un framework OpenSource
 * Un framework inspiré de la programmation fonctionnelle
 * Un framework permettant l’injection de dépendance
 
-#### 34) Qu’est ce que Realm?
+#### 35) Qu’est ce que Realm?
 	
 * Un outil d’analyse des données de l’application
 * Une base de donnée
