@@ -125,12 +125,12 @@
 * SQLite
 * PostgreSQL
 
-#### 11) Quel est le raccourci clavier pour lancer l’application ?
+#### 11) Que fait la commande "Command-R" sur XCode?
 
-* Command + S
-* Command + R
-* Option + S
-* Option + R
+* Build l'application
+* Build et exécute l'application
+* clean puis build l'application
+* clean puis build et enfin exécute l'application
 
 #### 12) Quel fichier contient les données de configuration de l'application ?
 
@@ -154,10 +154,13 @@
 * executeonly
 * readwriteexecute
 
-#### 14) Différence entre une propriété atomic et nonatomic Vrai ou faux ?
+#### 15) Une propriété nonatomic permet de ...
 
-* atomic est "Thread safe" comparé à nonatomic
-* 
+* Optimiser les performances d'accès à la propriété 
+* Rendre la propriété Thread safe
+* Rendre la propriété readwrite
+
+#### 16) 
 
 <br/>
 
