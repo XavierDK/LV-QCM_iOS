@@ -146,16 +146,7 @@
 * Un index
 * Un integer
 
-#### 14) 
-
-#### 15)
-
-#### 16)  
-
-
-<br/>
-
-#### 13) Une propriété de classe peut être ...
+#### 14) Une propriété de classe peut être ...
 
 * readonly
 * readwrite
@@ -168,6 +159,7 @@
 * atomic est "Thread safe" comparé à nonatomic
 * 
 
+<br/>
 
 ###III) 1 an d'exp (junior), cas courants monde pro
 
