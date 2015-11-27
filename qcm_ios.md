@@ -47,12 +47,20 @@
 * long int
 * unsigned long int
 
-#### 5) Que fait la commande "Command-R" sur XCode?
+#### 5) Quel est la valeur de la variable "res" (Objective-C)?
 
-* Build l'application
-* Build et exécute l'application
-* clean puis build l'application
-* clean puis build et enfin exécute l'application
+	- (void)main {
+		NSInteger val = 3;
+		const NSInteger res = 3;
+		
+		res += val;
+		NSLog("res = %d", res)
+	}
+	
+* 3
+* 6
+* 0
+* Ce code ne compile pas
 
 #### 6) Cet enum est-il correcte?
 
@@ -133,6 +141,7 @@
 
 <br/>
 
+#### 13) Un indexPath est composé d'une section et de ?
 
 ###III) 1 an d'exp (junior), cas courants monde pro
 
