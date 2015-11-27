@@ -19,8 +19,6 @@
 * var1 = 8, var2 = 5
 * Ce code ne compile pas
 
-<br/>
-
 #### 2) La gestion de mémoire est-elle correcte (Objective-C)?
 
 	- (void)func {
@@ -218,7 +216,7 @@
 * ```[array insertObject:object];```
 * ```array = [array arrayByAddingObject:object]```
 
-#### 24) Quel object permet le mieux de stocker un timestamp
+#### 24) Quel object permet le mieux de modifier un timestamp
 
 * NSInteger
 * CGFLoat
@@ -288,9 +286,12 @@
 * App File Id (AFI)
 * Un provisionning Profile
 
-#### 32) 
+#### 32) Qu'est ce qu'une NSOperationQueue
 
-
+* La liste des actions se déroulant actuellement dans le main thread
+* Une pile d'opérations s'executant les unes a la suite des autres
+* Quelque chose de manquant à GCD
+* Une pile d'actions a traiter par une vue en background
 
 <br/>
 
@@ -300,10 +301,10 @@
 
 #### 33) Qu’est ce que ReactiveCocoa ?
 
-* Un outil disponible dans Instruments
 * Un framework OpenSource
 * Un framework inspiré de la programmation fonctionnelle
 * Un framework permettant l’injection de dépendance
+* API permettant de composer et de transformer des flux de valeurs
 
 #### 34) Qu’est ce que Typhoon ?
 
