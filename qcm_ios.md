@@ -308,9 +308,11 @@
 #### 33) Qu’est ce que ReactiveCocoa ?
 
 * Un framework OpenSource
-* Un framework inspiré de la programmation fonctionnelle
+* Un framework inspiré de la programmation fonctionnelle 
 * Un framework permettant l’injection de dépendance
 * API permettant de composer et de transformer des flux de valeurs
+* Une alternative à RxSwift
+* Une manière d'optimiser son code afin de rentre l'experience utilisateur plus fluide
 
 #### 34) Qu’est ce que Typhoon ?
 
@@ -318,6 +320,7 @@
 * Un framework OpenSource
 * Un framework inspiré de la programmation fonctionnelle
 * Un framework permettant l’injection de dépendance
+* Un outils permettant de mettre en évidence
 
 #### 35) Qu’est ce que Realm ?
 	
@@ -325,16 +328,50 @@
 * Une base de donnée
 * Un outil de test “temps réel”
 * Un outils de gestion de tests fonctionnels
+* Un site mettant à disponibilité de très bonnes conférences
 
 #### 36) Qu'est ce que le MVVM ?
 
-#### 37) Qu'est ce que le "Protocol-Oriented Programming"?
+* Un remplacement du MVC
+* Une maniére de penser permettant de soulagé le ViewController
+* Une alternative à VIPER
+* Le Model Versionning View Model
 
-#### 38) Qu'est ce que Metal
+#### 37) Qu'est ce que Tweak?
 
-#### 39) Qu'est ce qu'est AsyncDisplayKit
+* Une librairie développée par Facebook
+* Une manière d'architecturer ses modeles
+* Une solution afin de switcher entre différentes versions des composants de son application
+* Un blog très connu de veille informatique
 
-#### 40) A quoi sert la librairie Tweak
+#### 38) Sélectionner dans la liste les nouveaux frameworks introduits avec iOS9
+
+* SpriteKit
+* SceneKit
+* GameplayKit
+* MetalKit
+* SwiftOpenGLKit
+* ContactsUI
+* Model I/O
+* ReplayKit
+
+#### 39) Dans les librairies ci-dessous quelles sont celles développées par Facebook?
+
+* AsyncDisplayKit
+* Bolts
+* PureLayout
+* ComponentKit
+* ReactNative
+
+#### 40) Dans les noms suivants quels sont les développeurs très présents sur la scene des librairies OpenSources/Conférences
+
+* Chris Eidhof
+* Mattt Thompson
+* Marck Ziwensky
+* Ray Wenderlich
+* Zach Lumberg
+* Ash Furrow 
+
 
 
 
