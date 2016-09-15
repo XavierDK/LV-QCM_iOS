@@ -13,7 +13,7 @@
 	var2 += 2;
 	var1 += var2++;
 
-* var1 = 7, var2 = 6
+* var1 = 7, var2 = 6 // OK
 * var1 = 8, var2 = 6
 * var1 = 7, var2 = 5
 * var1 = 8, var2 = 5
@@ -26,7 +26,7 @@
 	}
 
 * Oui, le pointeur ptr est libéré à la fin de la fonction.
-* Non, il faut libéré la mémoire manuellement.
+* Non, il faut libéré la mémoire manuellement. // OK
 
 
 #### 3) Quel format permet d'afficher un float avec 2 chiffres après la virgule (Objective-C)?
@@ -35,14 +35,14 @@
 * NSLog(@"%d", VALUE);
 * NSLog(@"%.2d", VALUE);
 * NSLog(@"%f", VALUE);
-* NSLog(@"%.2f", VALUE);
+* NSLog(@"%.2f", VALUE); // OK
 
 #### 4) NSInteger est un typedef sur quel type (Objective-C)?
 
 * short
 * int
 * unsigned int
-* long int
+* long // OK
 * unsigned long int
 
 #### 5) Quel est la valeur de la variable "res" (Objective-C)?
@@ -58,7 +58,7 @@
 * 3
 * 6
 * 0
-* Ce code ne compile pas
+* Ce code ne compile pas // OK
 
 #### 6) Cet enum est-il correcte?
 
@@ -71,7 +71,7 @@
 
 * Non, la syntax de cet enum est incorrect 
 * Non, on ne peux pas assigner de valeur à un enum il commence forcément par 0
-* Oui, cet enum est correcte 
+* Oui, cet enum est correcte  // OK
 
 #### 7) Quel est la valeur de la variable "varC" (Objective-C)?
 
@@ -83,7 +83,7 @@
 * 0
 * 2
 * 5
-* 3
+* 3 // OK
 * Ce code ne compile pas
 
 #### 8) Quel est la valeur de la variable "res" lors du second appel (Objective-C)?
@@ -102,7 +102,7 @@
 	
 * 3
 * 6
-* 11
+* 11 // OK
 * 12
 * Ce code ne compile pas
 
@@ -113,57 +113,57 @@
 * ```NSString *str = [NSString new]; str = "Hello World";```
 * ```NSString *str = [NSString new]; str = @"Hello World";```
 * ```NSString *str = [[NSString alloc] init]; str = @"Hello World";```
-* ```NSString *str = [[NSString alloc] initWithFormat:@"Hello World"];```
-* ```NSString *str = @"Hello World";```
+* ```NSString *str = [[NSString alloc] initWithFormat:@"Hello World"];``` // OK
+* ```NSString *str = @"Hello World";``` // OK
 
 #### 10) Quel est le type de base de données que iOS supporte ?
 
 * MySQL
 * Oracle
-* SQLite
+* SQLite // OK
 * PostgreSQL
 
 #### 11) Que fait la commande "Command-R" sur XCode?
 
 * Build l'application
-* Build et exécute l'application
+* Build et exécute l'application // OK
 * clean puis build l'application
 * clean puis build et enfin exécute l'application
 
 #### 12) Quel fichier contient les données de configuration de l'application ?
 
 * info.xml
-* info.plist
+* info.plist // OK
 * info.xib
 * plist.xml
 
 #### 13) Un indexPath est composé d'une section et de ?
 
-* Une row
+* Une row // OK
 * Un path
 * Un index
 * Un integer
 
 #### 14) Une propriété de classe peut être ...
 
-* readonly
-* readwrite
+* readonly // OK
+* readwrite // OK
 * writeonly
 * executeonly
 * readwriteexecute
 
-#### 15) Une propriété nonatomic permet de ...
+#### 15) Une propriété atomic permet de ...
 
 * Optimiser les performances d'accès à la propriété 
-* Rendre la propriété Thread safe
+* Rendre la propriété Thread safe // OK
 * Rendre la propriété readwrite
 
 #### 16) Quelles sont les classes utiles pour faire une requêtes ?
 
-* NSUrlRequest
+* NSUrlRequest // OK
 * NSUrlOperation
 * NSSession
-* NSUrlSession
+* NSUrlSession // OK
 * NSRequest 
 
 <br/>
@@ -172,21 +172,21 @@
 
 #### 17) Quels sont les classes utiles pour faire fonctionner CoreData ?
 
-* NSManagedObjectContext
-* NSManagedObject
+* NSManagedObjectContext // OK
+* NSManagedObject // OK
 * NSCoreData
 * NSCoreContext
 
 #### 18) Qu’est ce que l’ARC ?
 
 * Le garbage collector de l’objectiveC
-* Une fonctionnalité du compilateur
-* Automatic Reference Counting
+* Une fonctionnalité du compilateur // OK
+* Automatic Reference Counting // OK
 * Atomic Retain Core
 
 #### 19) Qu’est ce qu’un protocole ?
 
-* Une interface en java
+* Une interface en java // OK
 * Un design pattern
 * La même chose qu’une norme de codage
 * Une liste de méthodes et de propriétés
@@ -196,23 +196,23 @@
 * Un message d’erreur apparait dans la console
 * L’application crash
 * Il y a un warning à la compilation
-* Rien
+* Rien // OK
 
 
 #### 21) Quel sont les outils disponibles sur iOS pour la gestion de dépendances
 
 * UIDependencyManager
-* Cocoapods
-* Carthage
+* Cocoapods // OK
+* Carthage // OK
 * Reveal
 
 
 #### 22) Quel(s) callback est appellé pour chaque cellule dans une tableView ?
 
 * ```numberOfSectionsInTableView:```
-* ```tableView:heightForRowAtIndexPath:```
+* ```tableView:heightForRowAtIndexPath:``` // OK
 * ```tableView:numberOfRowsInSection:```
-* ```tableView:cellForRowAtIndexPath:```
+* ```tableView:cellForRowAtIndexPath:```// OK
 
 
 #### 23) Comment ajouter un élément dans un NSArray ?
@@ -220,11 +220,11 @@
 * ```[array appendObject:object];```
 * ```[array addObject:object];```
 * ```[array insertObject:object];```
-* ```array = [array arrayByAddingObject:object]```
+* ```array = [array arrayByAddingObject:object]``` // OK
 
 #### 24) Quel object permet le mieux de modifier un timestamp
 
-* NSInteger
+* NSInteger // OK
 * CGFLoat
 * NSTimestamp
 * NSDate
@@ -236,20 +236,20 @@
 
 #### 25) Quels sont les design patterns utilisés sur iOS?
 
-* La KVO
-* Le MVC
-* Le MVVM
+* La KVO // OK
+* Le MVC // OK
+* Le MVVM // OK
 * Le KVA
-* Le KVC
-* La délégation
-* Les notifications
-* Les singletons
+* Le KVC // OK
+* La délégation // OK
+* Les notifications // OK
+* Les singletons // OK
 
 #### 26) Avec quelle(s) classe(s) peut on temporairement désactiver les actions d’un layer en CoreAnimation ?
 
 * UITransaction
 * NSTransaction
-* CATransaction
+* CATransaction // OK
 * IOTransaction
 
 #### 27) Quel est le type de retour de ce prototype ?
@@ -257,7 +257,7 @@
 ```-weardMethod:(NSString*)str;	```
 
 * void
-* id
+* id // OK
 * NSString*
 * Ce prototype n’est pas valide
 
@@ -266,13 +266,13 @@
 	
 * Insérer du texte dans un endroit précis d’un fichier
 * Tester un morceau de code unitairement
-* Tester qu'une expression renvoie bien "false" ou affiche un message d'erreur
-* La même chose que XCTAssertTrue
+* Tester qu'une expression renvoie bien "false" ou affiche un message d'erreur // OK
+* La même chose que XCTAssertTrue // OK
 
 
 #### 29) Quel est l'ordre d'héritage d'un UIButton ?
 
-* NSObject -> UIResponder -> UIView -> UIControl -> UIButton
+* NSObject -> UIResponder -> UIView -> UIControl -> UIButton // OK
 * NSObject -> UIView -> UIResponder -> UIControl -> UIButton
 * NSObject -> NSResponder -> UIControl -> UIView -> UIButton
 * NSObject -> NSResponder -> UIView -> UIControl -> UIButton
@@ -287,16 +287,16 @@
 #### 31) Quels types de fichiers sont nécessaires à la soumission d'une application
 
 * Un certificat de développement
-* Un certificat de distribution
-* Une clef privé/clef publique (PEM)
+* Un certificat de distribution // OK
+* Une clef privé/clef publique (PEM) // OK
 * App File Id (AFI)
-* Un provisionning Profile
+* Un provisionning Profile // OK
 
 #### 32) Qu'est ce qu'une NSOperationQueue
 
 * La liste des actions se déroulant actuellement dans le main thread
-* Une pile d'opérations s'executant les unes a la suite des autres
-* Quelque chose de manquant à GCD
+* Une pile d'opérations s'executant les unes a la suite des autres // OK
+* Quelque chose de manquant à GCD // OK
 * Une pile d'actions a traiter par une vue en background
 
 <br/>
@@ -307,70 +307,69 @@
 
 #### 33) Qu’est ce que ReactiveCocoa ?
 
-* Un framework OpenSource
-* Un framework inspiré de la programmation fonctionnelle 
+* Un framework OpenSource // OK
+* Un framework inspiré de la programmation fonctionnelle // OK
 * Un framework permettant l’injection de dépendance
-* API permettant de composer et de transformer des flux de valeurs
-* Une alternative à RxSwift
+* API permettant de composer et de transformer des flux de valeurs // OK
+* Une alternative à RxSwift // OK
 * Une manière d'optimiser son code afin de rentre l'experience utilisateur plus fluide
 
 #### 34) Qu’est ce que Typhoon ?
 
 * Un outil disponible dans Instruments
-* Un framework OpenSource
+* Un framework OpenSource // OK
 * Un framework inspiré de la programmation fonctionnelle
-* Un framework permettant l’injection de dépendance
-* Un outils permettant de mettre en évidence
+* Un framework permettant l’injection de dépendance // OK
 
 #### 35) Qu’est ce que Realm ?
 	
 * Un outil d’analyse des données de l’application
-* Une base de donnée
+* Une base de donnée // OK
 * Un outil de test “temps réel”
 * Un outils de gestion de tests fonctionnels
-* Un site mettant à disponibilité de très bonnes conférences
+* Un site mettant à disponibilité de très bonnes conférences // OK
 
 #### 36) Qu'est ce que le MVVM ?
 
-* Un remplacement du MVC
-* Une maniére de penser permettant de soulagé le ViewController
-* Une alternative à VIPER
+* Un remplacement du MVC // OK
+* Une maniére de penser permettant de soulagé le ViewController // OK
+* Une alternative à VIPER // OK
 * Le Model Versionning View Model
 
 #### 37) Qu'est ce que Tweak?
 
-* Une librairie développée par Facebook
+* Une librairie développée par Facebook // OK
 * Une manière d'architecturer ses modeles
-* Une solution afin de switcher entre différentes versions des composants de son application
+* Une solution afin de switcher entre différentes versions des composants de son application // OK
 * Un blog très connu de veille informatique
 
 #### 38) Sélectionner dans la liste les nouveaux frameworks introduits avec iOS9
 
 * SpriteKit
-* SceneKit
-* GameplayKit
-* MetalKit
+* SceneKit // OK
+* GameplayKit // OK
+* MetalKit // OK
 * SwiftOpenGLKit
-* ContactsUI
+* ContactsUI // OK
 * Model I/O
-* ReplayKit
+* ReplayKit // OK
 
 #### 39) Dans les librairies ci-dessous quelles sont celles développées par Facebook?
 
-* AsyncDisplayKit
-* Bolts
+* AsyncDisplayKit // OK
+* Bolts // OK
 * PureLayout
-* ComponentKit
-* ReactNative
+* ComponentKit // OK
+* ReactNative// OK
 
 #### 40) Dans les noms suivants quels sont les développeurs très présents sur la scene des librairies OpenSources/Conférences
 
-* Chris Eidhof
-* Mattt Thompson
+* Chris Eidhof // OK
+* Mattt Thompson // OK
 * Marck Ziwensky
-* Ray Wenderlich
+* Ray Wenderlich // OK
 * Zach Lumberg
-* Ash Furrow 
+* Ash Furrow // OK
 
 
 
